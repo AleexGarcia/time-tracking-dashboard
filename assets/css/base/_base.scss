@@ -16,16 +16,25 @@ body,html{
 .oculto{
     display: none;
 }
-@media screen  and (min-width:1040px){
+@media screen  and (min-width:1023px){
     
     body{
         display: grid;
         align-items: center;
+        justify-items: center;
         justify-content: center;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: 25% 25% ;
-        max-width: 70%;
-        margin: 0 auto;
-       
+        grid-template-columns: 18.5vw 55.5vw;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+         "hd cd"
+         "ft ft";
+        max-width: 80vw;
+        margin: 15vh auto 0 auto;
+        gap: 2vw;
+        
     }
+    .container{
+        max-width: 100vw;
+    }
+    
 }

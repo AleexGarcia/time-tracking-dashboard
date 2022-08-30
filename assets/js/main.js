@@ -1,4 +1,4 @@
-cardsSection = document.querySelector('#cards');
+let cardsSection = document.querySelector('#cards');
 var dados = [];
 let data = 'data.json';
 var request = new XMLHttpRequest();
@@ -21,7 +21,7 @@ function cardDay(element) {
         <div class="card__info">
             <div class="current-info-box">
                 <span class="current__type">${element.title}</span>
-                <span class="pass__pontos">...</span>
+                <i class="fa-solid fa-ellipsis"></i>
             </div>
             <div class="pass-info-box">
                 <span class="current__hour">${element.timeframes.daily.current}hrs</span>
