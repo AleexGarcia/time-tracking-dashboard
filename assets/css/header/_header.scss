@@ -28,7 +28,7 @@
             display: inline-block;
             .user__span {
                 display: block;
-                font-size: $font-size/1.5;
+                font-size: $font-size/1.25;
                 margin-bottom:8px;
                 color: $pale-Blue;
 
@@ -50,6 +50,9 @@
                 padding: $font-size;
                 .nav__link{
                     text-decoration: none;
+                    color: $pale-Blue;
+                }
+                .active{
                     color: $font-color;
                 }
             }
