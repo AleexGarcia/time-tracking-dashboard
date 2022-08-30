@@ -1,0 +1,12 @@
+@import './variaveis';
+
+body,html{
+    font-family: $font-family;
+    font-size: $font-size;
+    
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    
+}

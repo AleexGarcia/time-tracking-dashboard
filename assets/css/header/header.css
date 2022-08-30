@@ -1,0 +1,14 @@
+.user {
+  border-radius: 20px;
+  background-color: hsl(226deg, 43%, 10%);
+}
+.user div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.user div img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}/*# sourceMappingURL=header.css.map */

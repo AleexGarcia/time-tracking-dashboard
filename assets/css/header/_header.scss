@@ -1,0 +1,58 @@
+@import '../base/variaveis';
+.header{
+    background-color: $dark-blue;
+    border-radius: 16px;
+    margin-top: $font-size*4;
+    .user {
+        border-radius: 16px;
+        background-color: $primary-blue;
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+        .img__container {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            border: 2px solid $font-color;
+            background-image: url(../images/image-jeremy.png);
+            background-position: center;
+            background-size: contain;
+            margin-right: 1rem;
+        }
+    
+        div {
+            color: $font-color;
+            display: inline-block;
+            .user__span {
+                display: block;
+                font-size: $font-size/1.5;
+                margin-bottom:8px;
+                color: $pale-Blue;
+
+            }
+    
+            .user__name {
+                display: block;
+                font-size: $font-size*1.25;
+
+            }
+        }
+    
+    }
+    .nav{
+        .nav__list{
+            text-align: center;
+            .nav__item{
+                display: inline-block;
+                padding: $font-size;
+                .nav__link{
+                    text-decoration: none;
+                    color: $font-color;
+                }
+            }
+        }
+    }
+}

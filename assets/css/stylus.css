@@ -1,0 +1,58 @@
+body, html {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 16px;
+  margin-top: 72px;
+}
+.header .user {
+  border-radius: 16px;
+  background-color: hsl(246deg, 80%, 60%);
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .user .img__container {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-image: url(../images/image-jeremy.png);
+  background-position: center;
+  background-size: contain;
+  margin-right: 1rem;
+}
+.header .user div {
+  color: #fff;
+  display: inline-block;
+}
+.header .user div .user__span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: hsl(236deg, 100%, 87%);
+}
+.header .user div .user__name {
+  display: block;
+  font-size: 22.5px;
+}
+.header .nav .nav__list {
+  text-align: center;
+}
+.header .nav .nav__list .nav__item {
+  display: inline-block;
+  padding: 18px;
+}
+.header .nav .nav__list .nav__item .nav__link {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=stylus.css.map */
