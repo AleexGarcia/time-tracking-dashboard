@@ -1,7 +1,6 @@
 @import '../base/variaveis';
 .header{
-    background-color: $dark-blue;
-    border-radius: 16px;
+    @include background-e-radius;
     margin-top: $font-size*4;
     .user {
         border-radius: 16px;
@@ -51,6 +50,14 @@
                 .nav__link{
                     text-decoration: none;
                     color: $pale-Blue;
+                    cursor: pointer;
+                    transition: .5s;
+                 
+                    &:hover{
+                        color: $font-color;
+                        transition: .5s;
+                        
+                    }
                 }
                 .active{
                     color: $font-color;
@@ -58,4 +65,11 @@
             }
         }
     }
+}
+@media screen  and (min-width:1040px){
+    .header{
+        grid-row: 1 / 3;
+        grid-column: 1 /2;
+    }
+   
 }

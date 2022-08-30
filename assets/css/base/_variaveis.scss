@@ -19,3 +19,8 @@ $pale-Blue: hsl(236, 100%, 87%);
 
 $font-size: 18px;
 $font-family:'Rubik', sans-serif;
+
+@mixin background-e-radius {
+    background-color: $dark-blue;
+    border-radius: 16px;
+}

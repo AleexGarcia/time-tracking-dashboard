@@ -1,12 +1,31 @@
 @import './variaveis';
-
+*{
+    box-sizing: border-box;
+}
 body,html{
     font-family: $font-family;
     font-size: $font-size;
-    
+    background-color: $very-dark-blue;
+    color: $pale-Blue;
 }
 .container{
     max-width: 90%;
     margin: 0 auto;
     
+}
+.oculto{
+    display: none;
+}
+@media screen  and (min-width:1040px){
+    
+    body{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 25% 25% ;
+        max-width: 70%;
+        margin: 0 auto;
+       
+    }
 }
