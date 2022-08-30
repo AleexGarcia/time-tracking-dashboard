@@ -103,12 +103,16 @@ body, html {
   font-size: 21.6px;
   color: #fff;
 }
-.cards div .card .card__info .current-info-box .pass__pontos {
+.cards div .card .card__info .current-info-box .fa-ellipsis {
   font-size: 36px;
-}
-.cards div .card .card__info .current-info-box .pass__pontos:hover {
-  color: #fff;
   cursor: pointer;
+}
+.cards div .card .card__info .current-info-box .fa-ellipsis::before {
+  font-size: 27px;
+  color: hsl(236deg, 100%, 87%);
+}
+.cards div .card .card__info .current-info-box .fa-ellipsis:hover, .cards div .card .card__info .current-info-box .fa-ellipsis ::before {
+  color: #fff;
 }
 .cards div .card .card__info .pass-info-box {
   display: flex;

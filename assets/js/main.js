@@ -21,7 +21,7 @@ function cardDay(element) {
         <div class="card__info">
             <div class="current-info-box">
                 <span class="current__type">${element.title}</span>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis pontos"></i>
             </div>
             <div class="pass-info-box">
                 <span class="current__hour">${element.timeframes.daily.current}hrs</span>
@@ -41,7 +41,7 @@ function cardWeek(element) {
         <div class="card__info">
             <div class="current-info-box">
                 <span class="current__type">${element.title}</span>
-                <span class="pass__pontos">...</span>
+                <i class="fa-solid fa-ellipsis pontos"></i>
             </div>
             <div class="pass-info-box">
                 <span class="current__hour">${element.timeframes.weekly.current}hrs</span>
@@ -60,7 +60,7 @@ function cardMonth(element) {
         <div class="card__info">
             <div class="current-info-box">
                 <span class="current__type">${element.title}</span>
-                <span class="pass__pontos">...</span>
+                <i class="fa-solid fa-ellipsis pontos"></i>
             </div>
             <div class="pass-info-box">
                 <span class="current__hour">${element.timeframes.monthly.current}hrs</span>
